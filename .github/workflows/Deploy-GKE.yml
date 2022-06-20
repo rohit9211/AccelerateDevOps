@@ -4,11 +4,11 @@ on: [workflow_dispatch]
 
 env:
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: xyz-demo-cluster
-  GKE_APP_NAME: xyz-demo-shop
-  GKE_SERVICE: xyz-service
-  GKE_SERVICE_ACCOUNT: xyz-serviceaccount
-  GKE_DEPLOYMENT_NAME: xyz-demo-shop-deployment
+  GKE_CLUSTER: demo-cluster
+  GKE_APP_NAME: demo-shop
+  GKE_SERVICE: gke-service
+  GKE_SERVICE_ACCOUNT: gke-serviceaccount
+  GKE_DEPLOYMENT_NAME: demo-shop-deployment
   GKE_REGION: europe-west3
   GKE_ZONE: europe-west3-a
   
